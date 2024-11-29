@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    background-color:  rgb(108, 133, 145);;
+    text-align: center;
+}
+
+.container{
+    height:70vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 0 0 1rem rgba(3, 3, 3, 0.3);
+    font-size:8vmin;
+    color: #f22828;
+    background-color:hsl(139, 40%, 92%);
+    cursor: pointer;
+    
+
+}
+
+.reset-btn{
+    margin:10px;
+    padding: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: rgb(1, 1, 1);
+    color: rgb(248, 242, 242);
+    border: none;
+    border-radius: 10px;
+}
+
+.resume-btn{
+    margin: 10px;
+    padding: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: rgb(1, 1, 1);
+    color: rgb(250, 253, 253);
+    border: none;
+    border-radius: 10px;
+}
+
+#new-game{
+    margin:10px;
+    padding: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: rgb(13, 13, 13);
+    color: rgb(248, 242, 242);
+    border: none;
+    border-radius: 10px;
+}
+
+#msg{
+   font-size: 40px;
+    color:rgb(248, 225, 195);
+} 
+
+.msg-container{
+    height: 25vmin;
+}
+
+.hide{
+    display: none;
+}
+
